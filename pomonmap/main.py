@@ -160,7 +160,7 @@ if break_sec is None:
     break_sec = parse_duration_to_seconds(str(DEFAULT_BREAK_MIN))
 
 # Now CMD may be None or a string; log / use as needed
-LOGFILE = "/home/ardx/pomonmap/logs/pomo_clock_log.csv"
+LOGFILE = "/home/{USERNAME}/pomonmap/logs/pomo_clock_log.csv"
 
 # ---------- Big digits (tty-clock like) ----------
 DIGITS = {
@@ -269,7 +269,7 @@ def run_detached(cmd):
     if not cmd:
         return
     try:
-        out_dir = "/home/ardx/pomonmap/logs"
+        out_dir = "/home/{USERNAME}/pomonmap/logs"
         os.makedirs(out_dir, exist_ok=True)
         ts = datetime.now().strftime("%Y%m%dT%H%M%S")
         safe_name = re.sub(r"[^\w\-_.]", "_", cmd)[:60]
