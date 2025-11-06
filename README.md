@@ -19,6 +19,16 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 - Flexible duration format support: 25, 10m, 2h, 1:30, etc.
 - UI keybindings: SPACE pause/resume, n skip, r reset, q/ESC quit.
 
+### <summary><strong>**installation**:</strong></summary>
+<p>
+    cd pomonmap
+    chmod 700 /home/{USERNAME}/logs
+    chmod +x main.py
+    chmod +x ~/bin/pomo-cmd-wrapper.sh
+</p>
+
+<img width="365" height="268" alt="Screenshot_20251106_151706" src="https://github.com/user-attachments/assets/aae96227-56b7-493e-b2ae-092818c3f282" />
+
 ### <summary><strong>Tools:</strong></summary>
 
 <p>
