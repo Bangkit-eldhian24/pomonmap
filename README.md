@@ -1,9 +1,9 @@
-# <summary><strong>Pomodoro Running with ethical hacking tools </strong></summary>
+# <summary><strong>🎭Pomodoro Running with ethical hacking tools🎭 </strong></summary>
 Short version: A curses-based Pomodoro that can execute tools (nmap, gobuster, dirb, etc.) detached and save the output to a per-tool log folder.
 
 Author: ardx
 Goal: Facilitate focused sessions while running non-interactive tools in a controlled home-lab/VM.
-### **I HOPE U R'NOT SKIDS** joke dude...
+### **I HOPE U R'NOT SKIDS** joke dude...😓😓
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Viewer&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
 </p> <p align="left"> 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
@@ -41,66 +41,22 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 
 <img width="365" height="268" alt="Screenshot_20251106_151706" src="https://github.com/user-attachments/assets/aae96227-56b7-493e-b2ae-092818c3f282" />
 
-### <summary><strong>Tools:</strong></summary>
+### <summary><strong>**TROUBLESHOOTING**</strong></summary>
+- Error parsing duration: If the first argument is not a duration, use -c or place the command after the duration.
+- No log output: Check the logs folder permissions and ensure the wrapper/script has write permissions.
+- Tool requires root: Run the wrapper in the home-lab VM as root or use sudo for the wrapper with secure sudoers rules.
+- Terminal error while job is running: Always use a detached wrapper; do not run interactive tools from the main process.
+
+### <summary><strong>EXAMPLE</strong></summary>
 
 <p>
-
-    <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
-
+    
+    python3 main.py "nmap -Pn 216.239.38.120"
+    python3 main.py -c "~/bin/pomo-cmd-wrapper.sh nmap -Pn -sC -sV 192.168.56.101"
+    
 </p>
 
 
 
-### <summary><strong>Yosh!</strong></summary>
 
-<p>
 
-    - :keyboard: I’m currently learning Data Analytics. </br>
-
-    - :speech_balloon: Ask me about anything.</br>
-
-    - :mailbox: How to reach me: <a href="mailto:youremail@gmail.com">Email me!</a>  </br>
-
-    - :cloud: Pronouns: She/Her. </br>
-
-    - :game_die: Drawing and writing are part of me. </br>
-
-<p>
-
- 
-
-### <summary><strong>Let's connect!</strong></summary>
-
-<a href="https://twitter.com/yours">
-
-  <img align="left" alt="Goo's Twitter" width="20px" src="https://simpleicons.now.sh/twitter/495f7e" />
-
-</a>
-
-<a href="https://www.instagram.com/yours/">
-
-  <img align="left" alt="Goo's Instagram" width="20px" src="https://simpleicons.now.sh/instagram/495f7e" />
-
-</a>
-
-<a href="https://yours.com/">
-
-  <img align="left" alt="Goo's Blog" width="20px" src="https://simpleicons.now.sh/blogger/495f7e" />
-
-</a>
-
-Ubah link media sosial diatas dengan link media sosial kalian.
-
-Untuk Tools, kalian juga dapat menambahkan:
-
-    <img src="https://img.shields.io/badge/OS-MacOS-blue?&logo=apple" /> - MacOS
-    <img src="https://img.shields.io/badge/Code-Swift-blue?&logo=swift" /> - Swift
-    <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" /> - IDE
-
-<p>
-
-    <img src="https://github-readme-stats.vercel.app/api?username=namaAnda&hide=contribs,prs&show_icons=true&hide_border=true&title_color=000" />
-
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namaAnda&layout=compact" height=180 />
-
-</p>
