@@ -9,11 +9,11 @@
 #
 # Notes:
 # - This wrapper runs the command in background and returns immediately.
-# - Output and metadata saved to /home/ardx/pomonmap/logs/<tool>/
+# - Output and metadata saved to /home/{USERNAME}/pomonmap/logs/<tool>/
 # - The wrapper records a small header, PID and a completion line in the same logfile.
 
 # CONFIG
-BASE_LOGDIR="/home/ardx/pomonmap/logs"
+BASE_LOGDIR="/home/{USERNAME}/pomonmap/logs"
 RETENTION_DAYS=30    # optional: cleanup logs older than this (set 0 to disable)
 UMASK=077            # ensure logs not world-readable
 
