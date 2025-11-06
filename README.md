@@ -21,12 +21,22 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 
 ### <summary><strong>**installation**:</strong></summary>
 <p>
+    
     cd pomonmap
     chmod 700 /home/{USERNAME}/logs
     chmod +x main.py
     chmod +x ~/bin/pomo-cmd-wrapper.sh
+    
 </p>
-
+### <summary><strong>**logs**:</strong></summary>
+- CSV Pomodoro
+/home/{USERNAME}/pomonmap/logs/pomo_clock_log.csv
+- Output 
+/home/{USERNAME}/pomonmap/logs/<tool>/YYYYMMDDTHHMMSS_<sanitized_cmd>.log
+- PID
+/home/ardx/pomonmap/logs/<tool>/YYYYMMDDTHHMMSS.pid
+    
+**Dir List**
 <img width="365" height="268" alt="Screenshot_20251106_151706" src="https://github.com/user-attachments/assets/aae96227-56b7-493e-b2ae-092818c3f282" />
 
 ### <summary><strong>Tools:</strong></summary>
