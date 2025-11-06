@@ -1,0 +1,38 @@
+name: Feature Request
+description: Sarankan ide untuk proyek ini
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah mengambil waktu untuk mengisi feature request!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Apakah feature request Anda terkait dengan masalah? Tolong jelaskan.
+      description: Jelaskan masalah yang Anda hadapi dengan jelas dan ringkas
+      placeholder: Saya selalu frustrasi ketika [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Jelaskan solusi yang Anda inginkan
+      description: Jelaskan apa yang Anda ingin terjadi
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatif yang Anda pertimbangkan
+      description: Jelaskan alternatif solusi atau fitur yang telah Anda pertimbangkan
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Konteks tambahan
+      description: Tambahkan konteks atau screenshot tentang feature request di sini

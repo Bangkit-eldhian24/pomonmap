@@ -1,0 +1,50 @@
+name: Bug Report
+description: Buat laporan bug untuk membantu kami memperbaiki masalah
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah mengambil waktu untuk mengisi bug report!
+  
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Apa yang terjadi?
+      description: Jelaskan juga apa yang seharusnya terjadi
+      placeholder: Ceritakan apa yang Anda lihat!
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah-langkah untuk mereproduksi
+      description: Langkah-langkah detail untuk mereproduksi masalah
+      placeholder: |
+        1. Pergi ke '...'
+        2. Klik pada '....'
+        3. Scroll down ke '....'
+        4. Lihat error
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Contoh:
+        - OS: Ubuntu 20.04
+        - Python: 3.8.5
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log yang relevan
+      description: Mohon copy dan paste log yang relevan. Ini akan otomatis diformat menjadi kode.
+      render: shell
