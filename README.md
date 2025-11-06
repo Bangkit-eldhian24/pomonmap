@@ -1,6 +1,8 @@
-# <summary><strong>Hi there :wave: , I'm Goo!</strong></summary>
+# <summary><strong>Pomodoro Running with ethical hacking tools </strong></summary>
+Short version: A curses-based Pomodoro that can execute tools (nmap, gobuster, dirb, etc.) detached and save the output to a per-tool log folder.
 
-Lifelong Learner, currently working as budagh kompeni.
+Author: ardx
+Goal: Facilitate focused sessions while running non-interactive tools in a controlled lab/VM.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goonesmile&label=Profile%20views&color=0e75b6&style=flat" alt="isrealodejobi" />
 
