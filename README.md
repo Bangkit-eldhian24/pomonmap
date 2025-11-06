@@ -4,7 +4,7 @@ Short version: A curses-based Pomodoro that can execute tools (nmap, gobuster, d
 Author: ardx
 Goal: Facilitate focused sessions while running non-interactive tools in a controlled lab/VM.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=goonesmile&label=Profile%20views&color=0e75b6&style=flat" alt="isrealodejobi" />
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Ethical&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
 
 </p>
 
