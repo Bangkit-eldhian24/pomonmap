@@ -6,7 +6,7 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Viewer&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
 </p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Viewer&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Pomodoro&color=efcf42&style=flat"/>
 </p>
 
 
