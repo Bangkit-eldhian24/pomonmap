@@ -7,7 +7,7 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Viewer&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
 </p> <p align="left"> 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-<img src="https://img.shields.io/badge/MIT-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MIT-green?style=for-the-badge&logoColor=black" />
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
 ### Key Features
