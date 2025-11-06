@@ -3,7 +3,7 @@ Short version: A curses-based Pomodoro that can execute tools (nmap, gobuster, d
 
 Author: ardx
 Goal: Facilitate focused sessions while running non-interactive tools in a controlled home-lab/VM.
-
+### **I HOPE U R'NOT SKIDS** joke dude...
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Viewer&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
 </p> <p align="left"> 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
@@ -11,13 +11,13 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
 ### Key Features
-Curses-based terminal UI with a large clock display (tty-clock style).
-Executes commands detached when a focus session starts (-c/--cmd).
-Saves Pomodoro event logs to CSV.
-Saves tool output to /home/ardx/pomonmap/logs/<tool>/YYYYMMDDTHHMMSS_<cmd>.log.
-Wrapper (pomo-cmd-wrapper.sh) for: per-tool subfolders, PID files, header metadata, and an END line when the job completes.
-Flexible duration format support: 25, 10m, 2h, 1:30, etc.
-UI keybindings: SPACE pause/resume, n skip, r reset, q/ESC quit.
+- Curses-based terminal UI with a large clock display (tty-clock style).
+- Executes commands detached when a focus session starts (-c/--cmd).
+- Saves Pomodoro event logs to CSV.
+- Saves tool output to /home/ardx/pomonmap/logs/<tool>/YYYYMMDDTHHMMSS_<cmd>.log.
+- Wrapper (pomo-cmd-wrapper.sh) for: per-tool subfolders, PID files, header metadata, and an END line when the job completes.
+- Flexible duration format support: 25, 10m, 2h, 1:30, etc.
+- UI keybindings: SPACE pause/resume, n skip, r reset, q/ESC quit.
 
 ### <summary><strong>Tools:</strong></summary>
 
