@@ -24,11 +24,12 @@ Goal: Facilitate focused sessions while running non-interactive tools in a contr
 
 ### <summary><strong>**installation**:</strong></summary>
 <p>
-    
+
+    mkdir -p logs
     cd pomonmap
     chmod 700 /home/{USERNAME}/logs
     chmod +x main.py
-    chmod +x ~/bin/pomo-cmd-wrapper.sh
+    chmod +x ~/pomonmap/pomonmap/bin/wrapper.sh
     
 </p>
 
