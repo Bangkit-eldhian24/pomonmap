@@ -5,6 +5,7 @@ Short version: A curses-based Pomodoro that can execute tools (nmap, gobuster, d
 THIS REPO IS STILL IN TESTING, FOR THIS LACK, THERE ARE STILL MANY IMPROVEMENTS TO BE FIXED, FOR INSTALLATION USERS HAVE TO CHANGE THE PATH MANUALLY... (I'm sorry)
 
 Author: ardx
+
 GOAL : idk
 ### **I HOPE U R'NOT SKIDS** joke dude...😓😓
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bangkit-eldhian24&label=Viewer&color=0e75b6&style=flat" alt="bangkit-eldhian24" />
