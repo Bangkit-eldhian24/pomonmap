@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-pomo_clock.py - TTY-clock style Pomodoro in terminal (curses)
+main.py - TTY-clock style Pomodoro in terminal (curses)
 
 Usage examples:
-  python3 pomo_clock.py                    # default 25m focus, 5m break
-  python3 pomo_clock.py 50                 # focus 50 minutes, break default
-  python3 pomo_clock.py 50 10              # focus 50 minutes, break 10 minutes
-  python3 pomo_clock.py 1:30 0:10          # focus 1 hour 30 minutes, break 10 minutes
-  python3 pomo_clock.py -c "nmap -Pn target"  # run command at focus start
-  python3 pomo_clock.py "nmap -Pn target"     # also works: auto-detects command and uses defaults
+  python3 main.py                    # default 25m focus, 5m break
+  python3 main.py 50                 # focus 50 minutes, break default
+  python3 main.py 50 10              # focus 50 minutes, break 10 minutes
+  python3 main.py 1:30 0:10          # focus 1 hour 30 minutes, break 10 minutes
+  python3 main.py -c "nmap -Pn target"  # run command at focus start
+  python3 main.py "nmap -Pn target"     # also works: auto-detects command and uses defaults
 
 By : ardx
 """
