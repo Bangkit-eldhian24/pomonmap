@@ -1,6 +1,9 @@
 # <summary><strong>🎭Pomodoro Running with ethical hacking tools🎭 </strong></summary>
 Short version: A curses-based Pomodoro that can execute tools (nmap, gobuster, dirb, etc.) detached and save the output to a per-tool log folder.
 
+# NOTE 
+THIS REPO IS STILL IN TESTING, FOR THIS LACK, THERE ARE STILL MANY IMPROVEMENTS TO BE FIXED, FOR INSTALLATION USERS HAVE TO CHANGE THE PATH MANUALLY... (I'm sorry)
+
 Author: ardx
 Goal: Facilitate focused sessions while running non-interactive tools in a controlled home-lab/VM.
 ### **I HOPE U R'NOT SKIDS** joke dude...😓😓
