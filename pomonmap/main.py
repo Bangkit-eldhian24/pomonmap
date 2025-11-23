@@ -83,14 +83,14 @@ HELP_DESCRIPTION = (
     "  - suffix jam: 2h, 2hours\n"
     "  - H:M: 1:30 (1 jam 30 menit)\n\n"
     "Contoh penggunaan singkat:\n"
-    "  python3 pomo_clock.py\n"
-    "  python3 pomo_clock.py 50 10\n"
-    "  python3 pomo_clock.py -c \"nmap -Pn target\"\n"
-    "  python3 pomo_clock.py \"nmap -Pn target\"  # auto-detect command\n"
+    "  python3 main.py\n"
+    "  python3 main.py 50 10\n"
+    "  python3 main.py -c \"nmap -Pn target\"\n"
+    "  python3 main.py \"nmap -Pn target\"  # auto-detect command\n"
 )
 
 parser = argparse.ArgumentParser(
-    prog="pomo_clock.py",
+    prog="main.py",
     description=HELP_DESCRIPTION,
     formatter_class=argparse.RawTextHelpFormatter,
     add_help=True
