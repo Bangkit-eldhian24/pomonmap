@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# pomo-cmd-wrapper.sh
+# wrapper.sh
 # Simple, robust executor for lsdx.py (Pomodoro) — runs tools detached, logs output per-tool.
 # By: ardx
 #
 # Usage:
-#   ~/bin/pomo-cmd-wrapper.sh nmap -Pn -sV 192.168.56.101
-#   ~/bin/pomo-cmd-wrapper.sh gobuster dir -u http://target -w /path/wordlist
+#   ~/bin/wrapper.sh nmap -Pn -sV 192.168.56.101
+#   ~/bin/wrapper.sh gobuster dir -u http://target -w /path/wordlist
 #
 # Notes:
 # - This wrapper runs the command in background and returns immediately.
